@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <title>
+      NEO • Нэо-косметология Магнитогорск: Профессиональная косметология НЕО
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="page">
+      <header>
+        <div class="modal">
+          <div class="modal__body">
+            <h2>Получите консультацию специалиста бесплатно</h2>
+            <h3>
+              Не нашли категорию или остались вопросы? Оставьте заявку и мы
+              поможем вам
+            </h3>
+            <div class="modal__body-input">
+              <div class="modal__input">
+                <label
+                  ><svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.9985 17.2681C19.7908 17.2681 22.8741 14.2925 22.8741 10.6355C22.8741 6.9785 19.7908 4 15.9985 4C12.2092 4 9.12593 6.97563 9.12593 10.6355C9.12593 14.2954 12.2092 17.2681 15.9985 17.2681ZM15.9985 5.76813C18.7779 5.76813 21.039 7.95025 21.039 10.6326C21.039 13.315 18.7779 15.4971 15.9985 15.4971C13.2191 15.5 10.958 13.3179 10.958 10.6355C10.958 7.95312 13.2191 5.76813 15.9985 5.76813ZM27 26.1145V27H5V26.1145C5 22.193 7.21936 18.7689 10.5082 16.9318C11.0474 17.3687 11.6432 17.7396 12.2837 18.0386C9.3434 19.3036 7.21341 22.0119 6.87976 25.229H25.1202C24.7866 22.0119 22.6566 19.3036 19.7163 18.0386C20.3568 17.7396 20.9526 17.3687 21.4918 16.9318C24.7777 18.7689 27 22.193 27 26.1145Z"
+                      fill="#1C95A2"
+                    />
+                  </svg>
+                </label>
+                <input type="text" placeholder="Ваше имя" />
+              </div>
+              <div class="modal__input">
+                <label
+                  ><svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.5 5C12.9477 5 12.5 5.44772 12.5 6C12.5 6.55228 12.9477 7 13.5 7H18.5C19.0523 7 19.5 6.55228 19.5 6C19.5 5.44772 19.0523 5 18.5 5H13.5Z"
+                      fill="#2770F1"
+                    />
+                    <path
+                      d="M15 25C15 24.4477 15.4477 24 16 24C16.5523 24 17 24.4477 17 25C17 25.5523 16.5523 26 16 26C15.4477 26 15 25.5523 15 25Z"
+                      fill="#2770F1"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 6C8 3.79086 9.79086 2 12 2H20C22.2091 2 24 3.79086 24 6V25C24 27.2091 22.2091 29 20 29H12C9.79086 29 8 27.2091 8 25V6ZM12 4C10.8954 4 10 4.89543 10 6V8H22V6C22 4.89543 21.1046 4 20 4H12ZM10 21V10H22V21H10ZM10 23V25C10 26.1046 10.8954 27 12 27H20C21.1046 27 22 26.1046 22 25V23H10Z"
+                      fill="#1C95A2"
+                    />
+                  </svg>
+                </label>
+                <input type="text" placeholder="Ваш телефон" />
+              </div>
+            </div>
+            <p>
+              Нажимая кнопку “Отправить заявку”, вы даете согласие на обработку
+              <a href="#">персональных данных</a>
+            </p>
+            <div class="modal__button">
+              <button class="modal__button-close">Отмена</button>
+              <button class="button__blue">Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+        <div class="header__body">
+          <div class="container">
+            <div class="header__top">
+              <div class="header__top-left">
+                <div class="header__top-logo">
+                  <img src="images/logo.png" alt="" />
+                  <div class="header__logo-row">
+                    <span class="header__logo-f">Косметология</span>
+                    <span class="header__logo-l">НЭО</span>
+                  </div>
+                </div>
+                <div class="social">
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="38"
+                      height="38"
+                      viewBox="0 0 30 30"
+                      style="fill: #0d979d"
+                    >
+                      <path
+                        d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M21.361,18.967 l-1.868,0.026c0,0-0.403,0.079-0.93-0.285c-0.699-0.48-1.358-1.729-1.872-1.567c-0.521,0.166-0.505,1.29-0.505,1.29 s0.004,0.198-0.115,0.327c-0.129,0.139-0.382,0.125-0.382,0.125h-0.837c0,0-1.846,0.153-3.473-1.543 c-1.772-1.849-3.338-5.498-3.338-5.498s-0.092-0.23,0.006-0.348c0.111-0.13,0.41-0.134,0.41-0.134l2-0.01 c0,0,0.188,0.033,0.324,0.133c0.111,0.082,0.174,0.236,0.174,0.236s0.323,0.819,0.752,1.561c0.836,1.446,1.224,1.763,1.508,1.608 c0.414-0.226,0.29-2.044,0.29-2.044s0.008-0.66-0.208-0.954c-0.168-0.229-0.484-0.297-0.622-0.314 c-0.113-0.015,0.071-0.277,0.311-0.395c0.36-0.176,0.996-0.186,1.747-0.179c0.585,0.006,0.754,0.042,0.982,0.098 c0.69,0.167,0.456,0.811,0.456,2.356c0,0.495-0.089,1.191,0.267,1.42c0.154,0.099,0.529,0.015,1.464-1.579 c0.445-0.756,0.778-1.644,0.778-1.644s0.073-0.158,0.186-0.226c0.116-0.07,0.272-0.048,0.272-0.048l2.105-0.013 c0,0,0.632-0.076,0.735,0.211c0.108,0.3-0.236,1.001-1.096,2.148c-1.412,1.884-1.569,1.709-0.396,2.799 c1.12,1.041,1.351,1.547,1.39,1.611C22.339,18.906,21.361,18.967,21.361,18.967z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="38"
+                      height="38"
+                      viewBox="0,0,256,256"
+                    >
+                      <g
+                        fill="#22c3e6"
+                        fill-rule="nonzero"
+                        stroke="none"
+                        stroke-width="1"
+                        stroke-linecap="butt"
+                        stroke-linejoin="miter"
+                        stroke-miterlimit="10"
+                        stroke-dasharray=""
+                        stroke-dashoffset="0"
+                        font-family="none"
+                        font-weight="none"
+                        font-size="none"
+                        text-anchor="none"
+                        style="fill: #0d979d"
+                      >
+                        <g transform="scale(5.12,5.12)">
+                          <path
+                            d="M46.137,6.552c-0.75,-0.636 -1.928,-0.727 -3.146,-0.238h-0.002c-1.281,0.514 -36.261,15.518 -37.685,16.131c-0.259,0.09 -2.521,0.934 -2.288,2.814c0.208,1.695 2.026,2.397 2.248,2.478l8.893,3.045c0.59,1.964 2.765,9.21 3.246,10.758c0.3,0.965 0.789,2.233 1.646,2.494c0.752,0.29 1.5,0.025 1.984,-0.355l5.437,-5.043l8.777,6.845l0.209,0.125c0.596,0.264 1.167,0.396 1.712,0.396c0.421,0 0.825,-0.079 1.211,-0.237c1.315,-0.54 1.841,-1.793 1.896,-1.935l6.556,-34.077c0.4,-1.82 -0.156,-2.746 -0.694,-3.201zM22,32l-3,8l-3,-10l23,-17z"
+                          ></path>
+                        </g>
+                      </g></svg
+                  ></a>
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="38"
+                      height="38"
+                      viewBox="0,0,256,256"
+                    >
+                      <g
+                        fill="#22c3e6"
+                        fill-rule="nonzero"
+                        stroke="none"
+                        stroke-width="1"
+                        stroke-linecap="butt"
+                        stroke-linejoin="miter"
+                        stroke-miterlimit="10"
+                        stroke-dasharray=""
+                        stroke-dashoffset="0"
+                        font-family="none"
+                        font-weight="none"
+                        font-size="none"
+                        text-anchor="none"
+                        style="fill: #0d979d"
+                      >
+                        <g transform="scale(8.53333,8.53333)">
+                          <path
+                            d="M15,3c-6.627,0 -12,5.373 -12,12c0,2.25121 0.63234,4.35007 1.71094,6.15039l-1.60352,5.84961l5.97461,-1.56836c1.74732,0.99342 3.76446,1.56836 5.91797,1.56836c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12zM10.89258,9.40234c0.195,0 0.39536,-0.00119 0.56836,0.00781c0.214,0.005 0.44692,0.02067 0.66992,0.51367c0.265,0.586 0.84202,2.05608 0.91602,2.20508c0.074,0.149 0.12644,0.32453 0.02344,0.51953c-0.098,0.2 -0.14897,0.32105 -0.29297,0.49805c-0.149,0.172 -0.31227,0.38563 -0.44727,0.51563c-0.149,0.149 -0.30286,0.31238 -0.13086,0.60938c0.172,0.297 0.76934,1.27064 1.65234,2.05664c1.135,1.014 2.09263,1.32561 2.39063,1.47461c0.298,0.149 0.47058,0.12578 0.64258,-0.07422c0.177,-0.195 0.74336,-0.86411 0.94336,-1.16211c0.195,-0.298 0.39406,-0.24644 0.66406,-0.14844c0.274,0.098 1.7352,0.8178 2.0332,0.9668c0.298,0.149 0.49336,0.22275 0.56836,0.34375c0.077,0.125 0.07708,0.72006 -0.16992,1.41406c-0.247,0.693 -1.45991,1.36316 -2.00391,1.41016c-0.549,0.051 -1.06136,0.24677 -3.56836,-0.74023c-3.024,-1.191 -4.93108,-4.28828 -5.08008,-4.48828c-0.149,-0.195 -1.21094,-1.61031 -1.21094,-3.07031c0,-1.465 0.76811,-2.18247 1.03711,-2.48047c0.274,-0.298 0.59492,-0.37109 0.79492,-0.37109z"
+                          ></path>
+                        </g>
+                      </g></svg
+                  ></a>
+                </div>
+              </div>
+              <div class="header__top-middle">
+                <p>
+                  Пн-Пт 10:00-21:00 <br />
+                  Сб 10:00-18:00 Вс 10:00-15:00
+                </p>
+              </div>
+              <div class="header__top-right">
+                <div class="header__top-phone">
+                  <div class="header__phone-col">
+                    <a href="#">+7 (3519) 54-55-10</a>
+                    <p>Магнитогорск, тевосяна, 4А</p>
+                  </div>
+                </div>
+                <div class="header__top-callback">
+                  <button class="button__blue button__open">
+                    Оставить заявку
+                  </button>
+                </div>
+                <div class="header__top-burger d-none d-block">
+                  <svg
+                    width="28"
+                    height="22"
+                    viewBox="0 0 18 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17 12C17.5523 12 18 11.5523 18 11C18 10.4477 17.5523 10 17 10H1C0.447716 10 0 10.4477 0 11C0 11.5523 0.447715 12 1 12H17Z"
+                      fill="#0D959F"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17 7C17.5523 7 18 6.55228 18 6C18 5.44772 17.5523 5 17 5H1C0.447716 5 0 5.44772 0 6C0 6.55228 0.447715 7 1 7H17Z"
+                      fill="#0D959F"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0 1C0 1.55228 0.447715 2 1 2H17C17.5523 2 18 1.55228 18 1C18 0.447715 17.5523 0 17 0H1C0.447716 0 0 0.447715 0 1Z"
+                      fill="#0D959F"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom">
+              <nav>
+                <ul>
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="services.html">Наши услуги</a></li>
+                  <li><a href="doctors.html">Сотрудники</a></li>
+                  <li><a href="about.html">О центре</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </nav>
+
+              <div class="header__top-phone d-none d-block">
+                <div class="header__phone-col">
+                  <a href="#">+7 (3519) 54-55-10</a>
+                  <p>Магнитогорск, тевосяна, 4А</p>
+                </div>
+              </div>
+              <div class="header__top-middle d-none d-block">
+                <p>
+                  Пн-Пт 10:00-21:00 <br />
+                  Сб 10:00-18:00 Вс 10:00-15:00
+                </p>
+              </div>
+              <div class="social d-none d-flex">
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="38"
+                    height="38"
+                    viewBox="0 0 30 30"
+                    style="fill: #0d979d"
+                  >
+                    <path
+                      d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M21.361,18.967 l-1.868,0.026c0,0-0.403,0.079-0.93-0.285c-0.699-0.48-1.358-1.729-1.872-1.567c-0.521,0.166-0.505,1.29-0.505,1.29 s0.004,0.198-0.115,0.327c-0.129,0.139-0.382,0.125-0.382,0.125h-0.837c0,0-1.846,0.153-3.473-1.543 c-1.772-1.849-3.338-5.498-3.338-5.498s-0.092-0.23,0.006-0.348c0.111-0.13,0.41-0.134,0.41-0.134l2-0.01 c0,0,0.188,0.033,0.324,0.133c0.111,0.082,0.174,0.236,0.174,0.236s0.323,0.819,0.752,1.561c0.836,1.446,1.224,1.763,1.508,1.608 c0.414-0.226,0.29-2.044,0.29-2.044s0.008-0.66-0.208-0.954c-0.168-0.229-0.484-0.297-0.622-0.314 c-0.113-0.015,0.071-0.277,0.311-0.395c0.36-0.176,0.996-0.186,1.747-0.179c0.585,0.006,0.754,0.042,0.982,0.098 c0.69,0.167,0.456,0.811,0.456,2.356c0,0.495-0.089,1.191,0.267,1.42c0.154,0.099,0.529,0.015,1.464-1.579 c0.445-0.756,0.778-1.644,0.778-1.644s0.073-0.158,0.186-0.226c0.116-0.07,0.272-0.048,0.272-0.048l2.105-0.013 c0,0,0.632-0.076,0.735,0.211c0.108,0.3-0.236,1.001-1.096,2.148c-1.412,1.884-1.569,1.709-0.396,2.799 c1.12,1.041,1.351,1.547,1.39,1.611C22.339,18.906,21.361,18.967,21.361,18.967z"
+                    ></path>
+                  </svg>
+                </a>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="38"
+                    height="38"
+                    viewBox="0,0,256,256"
+                  >
+                    <g
+                      fill="#22c3e6"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="fill: #0d979d"
+                    >
+                      <g transform="scale(5.12,5.12)">
+                        <path
+                          d="M46.137,6.552c-0.75,-0.636 -1.928,-0.727 -3.146,-0.238h-0.002c-1.281,0.514 -36.261,15.518 -37.685,16.131c-0.259,0.09 -2.521,0.934 -2.288,2.814c0.208,1.695 2.026,2.397 2.248,2.478l8.893,3.045c0.59,1.964 2.765,9.21 3.246,10.758c0.3,0.965 0.789,2.233 1.646,2.494c0.752,0.29 1.5,0.025 1.984,-0.355l5.437,-5.043l8.777,6.845l0.209,0.125c0.596,0.264 1.167,0.396 1.712,0.396c0.421,0 0.825,-0.079 1.211,-0.237c1.315,-0.54 1.841,-1.793 1.896,-1.935l6.556,-34.077c0.4,-1.82 -0.156,-2.746 -0.694,-3.201zM22,32l-3,8l-3,-10l23,-17z"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></a>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="38"
+                    height="38"
+                    viewBox="0,0,256,256"
+                  >
+                    <g
+                      fill="#22c3e6"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="fill: #0d979d"
+                    >
+                      <g transform="scale(8.53333,8.53333)">
+                        <path
+                          d="M15,3c-6.627,0 -12,5.373 -12,12c0,2.25121 0.63234,4.35007 1.71094,6.15039l-1.60352,5.84961l5.97461,-1.56836c1.74732,0.99342 3.76446,1.56836 5.91797,1.56836c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12zM10.89258,9.40234c0.195,0 0.39536,-0.00119 0.56836,0.00781c0.214,0.005 0.44692,0.02067 0.66992,0.51367c0.265,0.586 0.84202,2.05608 0.91602,2.20508c0.074,0.149 0.12644,0.32453 0.02344,0.51953c-0.098,0.2 -0.14897,0.32105 -0.29297,0.49805c-0.149,0.172 -0.31227,0.38563 -0.44727,0.51563c-0.149,0.149 -0.30286,0.31238 -0.13086,0.60938c0.172,0.297 0.76934,1.27064 1.65234,2.05664c1.135,1.014 2.09263,1.32561 2.39063,1.47461c0.298,0.149 0.47058,0.12578 0.64258,-0.07422c0.177,-0.195 0.74336,-0.86411 0.94336,-1.16211c0.195,-0.298 0.39406,-0.24644 0.66406,-0.14844c0.274,0.098 1.7352,0.8178 2.0332,0.9668c0.298,0.149 0.49336,0.22275 0.56836,0.34375c0.077,0.125 0.07708,0.72006 -0.16992,1.41406c-0.247,0.693 -1.45991,1.36316 -2.00391,1.41016c-0.549,0.051 -1.06136,0.24677 -3.56836,-0.74023c-3.024,-1.191 -4.93108,-4.28828 -5.08008,-4.48828c-0.149,-0.195 -1.21094,-1.61031 -1.21094,-3.07031c0,-1.465 0.76811,-2.18247 1.03711,-2.48047c0.274,-0.298 0.59492,-0.37109 0.79492,-0.37109z"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></a>
+              </div>
+              <div class="header__top-callback d-none d-block">
+                <button class="button__blue button__open">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="price section">
+          <div class="container">
+            <h1>Наши <span>услуги</span></h1>
+            <div class="square">
+              <svg
+                width="208"
+                height="207"
+                viewBox="0 0 208 207"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="103" width="104" height="104" fill="#C0D3FB"></rect>
+                <path
+                  d="M208 103L104 207L104 103L208 103Z"
+                  fill="#1B315F"
+                ></path>
+                <rect
+                  x="104"
+                  y="103"
+                  width="103"
+                  height="104"
+                  transform="rotate(-90 104 103)"
+                  fill="#0D959F"
+                ></rect>
+              </svg>
+            </div>
+            <div class="price__body">
+              <div class="price__body-filter filter-none">
+                <strong>Услуги</strong>
+                <ul>
+                  <li class="price__filter-btn active" data-filter="all">
+                    Все услуги
+                  </li>
+                  <li class="price__filter-btn" data-filter="injection">
+                    Инъкционная косметология
+                  </li>
+                  <li class="price__filter-btn" data-filter="equipment">
+                    Аппаратная косметология
+                  </li>
+                  <li class="price__filter-btn" data-filter="massages">
+                    Массажи и SPA
+                  </li>
+                  <li class="price__filter-btn" data-filter="aesthetic">
+                    Эстетическая косметология
+                  </li>
+                  <li class="price__filter-btn" data-filter="epilation">
+                    Лазерная эпиляция
+                  </li>
+                  <li class="price__filter-btn" data-filter="laser">
+                    Лазерная косметология
+                  </li>
+                  <li class="price__filter-btn" data-filter="trichologist">
+                    Прием трихолога в Магнитогорске
+                  </li>
+                  <li class="price__filter-btn" data-filter="peeling">
+                    Поверхостные пилинги
+                  </li>
+                </ul>
+              </div>
+              <div class="price__body-filter d-none d-block">
+                <select class="price__filter-select" aria-label="Фильтр услуг">
+                  <option value="all">Все услуги</option>
+                  <option value="injection">Инъекционная косметология</option>
+                  <option value="equipment">Аппаратная косметология</option>
+                  <option value="massages">Массажи и SPA</option>
+                  <option value="aesthetic">Эстетическая косметология</option>
+                  <option value="epilation">Лазерная эпиляция</option>
+                  <option value="laser">Лазерная косметология</option>
+                  <option value="trichologist">
+                    Прием трихолога в Магнитогорске
+                  </option>
+                  <option value="peeling">Поверхностные пилинги</option>
+                </select>
+              </div>
+              <div class="price__body-cards">
+                <div class="price__body-card" data-services="injection">
+                  <h3>Инъкционная косметология</h3>
+                  <h4>ДИСПОРТ</h4>
+                  <ul>
+                    <li>
+                      <p class="services__body-name">
+                        Диспорт® (Франция): Межбровье, лоб 80-100 единиц
+                      </p>
+                      <p class="services__body-price">от <span>8000</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Диспорт® (Франция): Межбровье, лоб, глаза 110-120
+                        единиц.
+                      </p>
+                      <p class="services__body-price">
+                        от <span>11000</span> ₽
+                      </p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Диспорт® (Франция): Лечение гипергидроза (подмышки) 300
+                        единиц.
+                      </p>
+                      <p class="services__body-price">
+                        от <span>34500</span> ₽
+                      </p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Диспорт® (Франция): 1 единица:
+                      </p>
+                      <p class="services__body-price">от <span>100</span> ₽</p>
+                    </li>
+                  </ul>
+                  <h4>МЕЗОТЕРАПИЯ</h4>
+                  <ul>
+                    <li>
+                      <p class="services__body-name">DMAE Lift Gel, 2 мл</p>
+                      <p class="services__body-price">от <span>8000</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Hyalrepair-06 bioreparant, 5мл
+                      </p>
+                      <p class="services__body-price">от <span>9000</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">IALEST, 2мл</p>
+                      <p class="services__body-price">
+                        от <span>12000</span> ₽
+                      </p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">Plinest fast, 2мл</p>
+                      <p class="services__body-price">
+                        от <span>16000</span> ₽
+                      </p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Meso gel BTX Lift Booster
+                      </p>
+                      <p class="services__body-price">от <span>7500</span> ₽</p>
+                    </li>
+                  </ul>
+                  <h4>БОТУЛИНОТЕРАПИЯ</h4>
+                  <ul>
+                    <li>
+                      <p class="services__body-name">
+                        Новокутан БТА 1 ед. (Ботулотоксин)
+                      </p>
+                      <p class="services__body-price">от <span>280</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">Релатокс (Россия) 1 ед.</p>
+                      <p class="services__body-price">от <span>250</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">Ботулакс (Корея) 1 ед.</p>
+                      <p class="services__body-price">от <span>250</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Рефайнекс (Япония) 1 ед.
+                      </p>
+                      <p class="services__body-price">от <span>200</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">Миотокс (Россия) 1 ед.</p>
+                      <p class="services__body-price">от <span>250</span> ₽</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="price__body-card" data-services="equipment">
+                  <h3>Аппаратная косметология</h3>
+                  <h4>Аппаратная диагностика кожи лица</h4>
+                  <ul>
+                    <li>
+                      <p class="services__body-name">
+                        Консультация врача-косметолога, косметолога
+                      </p>
+                      <p class="services__body-price">от <span>1300</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Консультация врача дерматолога-косметолога
+                      </p>
+                      <p class="services__body-price">от <span>1800</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Диагностика кожи лица на аппарате с составлением
+                        домашнего и салонного ухода
+                      </p>
+                      <p class="services__body-price">от <span>1300</span> ₽</p>
+                    </li>
+                  </ul>
+                  <h4>SMAS ЛИФТИНГ НА АППАРАТЕ LIFTERA-A® NEW!</h4>
+                  <ul>
+                    <li>
+                      <p class="services__body-name">
+                        SMAS ЛИФТИНГ LIFTERA-A. От 50 до 200 линий
+                      </p>
+                      <p class="services__body-price">
+                        от <span>90</span> ₽/1 линия
+                      </p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        SMAS ЛИФТИНГ LIFTERA-A. От 201 до 400 линий
+                      </p>
+                      <p class="services__body-price">
+                        от <span>75</span> ₽/1 линия
+                      </p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        SMAS ЛИФТИНГ LIFTERA-A. От 401 до 600 линий
+                      </p>
+                      <p class="services__body-price">
+                        от <span>65</span> ₽/1 линия
+                      </p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        SMAS ЛИФТИНГ LIFTERA-A. От 601 до 1200 линий
+                      </p>
+                      <p class="services__body-price">
+                        от <span>60</span> ₽/1 линия
+                      </p>
+                    </li>
+                  </ul>
+                  <h4>Fullskin®: Вакуумный массаж лица</h4>
+                  <ul>
+                    <li>
+                      <p class="services__body-name">
+                        Fullskin® Лицо: Вакуумный массаж на аппарате Fullskin®
+                        (Leskin V7, skintonic)
+                      </p>
+                      <p class="services__body-price">от <span>2000</span> ₽</p>
+                    </li>
+                    <li>
+                      <p class="services__body-name">
+                        Fullskin® Лицо: Вакуумный массаж на аппарате Fullskin®
+                        (Leskin V7, skintonic) + «маска»
+                      </p>
+                      <p class="services__body-price">от <span>2500</span> ₽</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="footer__body">
+            <div class="footer__body-col">
+              <div class="footer__body-logo">
+                <img src="images/logo.png" alt="" />
+                <div class="footer__logo-col">
+                  <span class="footer__logo-f">Косметология</span>
+                  <span class="footer__logo-l">НЭО</span>
+                </div>
+              </div>
+              <div class="footer__body-phone">
+                <a href="#">+7 (3519) 54-55-10</a>
+              </div>
+              <div class="footer__body-adress">
+                <div class="footer__adress-header">
+                  <svg
+                    width="16"
+                    height="20"
+                    viewBox="0 0 16 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 20C8 20 16 12.4183 16 8C16 3.58173 12.4183 0 8 0C3.58172 0 0 3.58173 0 8C0 12.4183 8 20 8 20ZM8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z"
+                      fill="#2770F1"
+                    />
+                  </svg>
+                  <span>Адрес</span>
+                </div>
+                <p>МАГНИТОГОРСК, УЛ. ТЕВОСЯНА, 4А</p>
+              </div>
+              <div class="footer__body-mail">
+                <div class="footer__mail-header">
+                  <svg
+                    width="16"
+                    height="20"
+                    viewBox="0 0 16 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 20C8 20 16 12.4183 16 8C16 3.58173 12.4183 0 8 0C3.58172 0 0 3.58173 0 8C0 12.4183 8 20 8 20ZM8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z"
+                      fill="#2770F1"
+                    />
+                  </svg>
+                  <span>Email</span>
+                </div>
+                <a href="#">info@neo74.ru</a>
+              </div>
+              <div class="social">
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="38"
+                    height="38"
+                    viewBox="0 0 30 30"
+                    style="fill: #fff"
+                  >
+                    <path
+                      d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M21.361,18.967 l-1.868,0.026c0,0-0.403,0.079-0.93-0.285c-0.699-0.48-1.358-1.729-1.872-1.567c-0.521,0.166-0.505,1.29-0.505,1.29 s0.004,0.198-0.115,0.327c-0.129,0.139-0.382,0.125-0.382,0.125h-0.837c0,0-1.846,0.153-3.473-1.543 c-1.772-1.849-3.338-5.498-3.338-5.498s-0.092-0.23,0.006-0.348c0.111-0.13,0.41-0.134,0.41-0.134l2-0.01 c0,0,0.188,0.033,0.324,0.133c0.111,0.082,0.174,0.236,0.174,0.236s0.323,0.819,0.752,1.561c0.836,1.446,1.224,1.763,1.508,1.608 c0.414-0.226,0.29-2.044,0.29-2.044s0.008-0.66-0.208-0.954c-0.168-0.229-0.484-0.297-0.622-0.314 c-0.113-0.015,0.071-0.277,0.311-0.395c0.36-0.176,0.996-0.186,1.747-0.179c0.585,0.006,0.754,0.042,0.982,0.098 c0.69,0.167,0.456,0.811,0.456,2.356c0,0.495-0.089,1.191,0.267,1.42c0.154,0.099,0.529,0.015,1.464-1.579 c0.445-0.756,0.778-1.644,0.778-1.644s0.073-0.158,0.186-0.226c0.116-0.07,0.272-0.048,0.272-0.048l2.105-0.013 c0,0,0.632-0.076,0.735,0.211c0.108,0.3-0.236,1.001-1.096,2.148c-1.412,1.884-1.569,1.709-0.396,2.799 c1.12,1.041,1.351,1.547,1.39,1.611C22.339,18.906,21.361,18.967,21.361,18.967z"
+                    ></path>
+                  </svg>
+                </a>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="38"
+                    height="38"
+                    viewBox="0,0,256,256"
+                  >
+                    <g
+                      fill="#22c3e6"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="fill: #fff"
+                    >
+                      <g transform="scale(5.12,5.12)">
+                        <path
+                          d="M46.137,6.552c-0.75,-0.636 -1.928,-0.727 -3.146,-0.238h-0.002c-1.281,0.514 -36.261,15.518 -37.685,16.131c-0.259,0.09 -2.521,0.934 -2.288,2.814c0.208,1.695 2.026,2.397 2.248,2.478l8.893,3.045c0.59,1.964 2.765,9.21 3.246,10.758c0.3,0.965 0.789,2.233 1.646,2.494c0.752,0.29 1.5,0.025 1.984,-0.355l5.437,-5.043l8.777,6.845l0.209,0.125c0.596,0.264 1.167,0.396 1.712,0.396c0.421,0 0.825,-0.079 1.211,-0.237c1.315,-0.54 1.841,-1.793 1.896,-1.935l6.556,-34.077c0.4,-1.82 -0.156,-2.746 -0.694,-3.201zM22,32l-3,8l-3,-10l23,-17z"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></a>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="38"
+                    height="38"
+                    viewBox="0,0,256,256"
+                  >
+                    <g
+                      fill="#22c3e6"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="fill: #fff"
+                    >
+                      <g transform="scale(8.53333,8.53333)">
+                        <path
+                          d="M15,3c-6.627,0 -12,5.373 -12,12c0,2.25121 0.63234,4.35007 1.71094,6.15039l-1.60352,5.84961l5.97461,-1.56836c1.74732,0.99342 3.76446,1.56836 5.91797,1.56836c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12zM10.89258,9.40234c0.195,0 0.39536,-0.00119 0.56836,0.00781c0.214,0.005 0.44692,0.02067 0.66992,0.51367c0.265,0.586 0.84202,2.05608 0.91602,2.20508c0.074,0.149 0.12644,0.32453 0.02344,0.51953c-0.098,0.2 -0.14897,0.32105 -0.29297,0.49805c-0.149,0.172 -0.31227,0.38563 -0.44727,0.51563c-0.149,0.149 -0.30286,0.31238 -0.13086,0.60938c0.172,0.297 0.76934,1.27064 1.65234,2.05664c1.135,1.014 2.09263,1.32561 2.39063,1.47461c0.298,0.149 0.47058,0.12578 0.64258,-0.07422c0.177,-0.195 0.74336,-0.86411 0.94336,-1.16211c0.195,-0.298 0.39406,-0.24644 0.66406,-0.14844c0.274,0.098 1.7352,0.8178 2.0332,0.9668c0.298,0.149 0.49336,0.22275 0.56836,0.34375c0.077,0.125 0.07708,0.72006 -0.16992,1.41406c-0.247,0.693 -1.45991,1.36316 -2.00391,1.41016c-0.549,0.051 -1.06136,0.24677 -3.56836,-0.74023c-3.024,-1.191 -4.93108,-4.28828 -5.08008,-4.48828c-0.149,-0.195 -1.21094,-1.61031 -1.21094,-3.07031c0,-1.465 0.76811,-2.18247 1.03711,-2.48047c0.274,-0.298 0.59492,-0.37109 0.79492,-0.37109z"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></a>
+              </div>
+            </div>
+            <div class="footer__body-col">
+              <div class="footer__body-form">
+                <h2>Получите консультацию специалиста бесплатно</h2>
+                <p>
+                  Не нашли категорию или остались вопросы? Оставьте заявку и мы
+                  поможем вам
+                </p>
+                <div class="footer__form">
+                  <div class="modal__body-input">
+                    <div class="modal__input">
+                      <label
+                        ><svg
+                          width="32"
+                          height="32"
+                          viewBox="0 0 32 32"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.9985 17.2681C19.7908 17.2681 22.8741 14.2925 22.8741 10.6355C22.8741 6.9785 19.7908 4 15.9985 4C12.2092 4 9.12593 6.97563 9.12593 10.6355C9.12593 14.2954 12.2092 17.2681 15.9985 17.2681ZM15.9985 5.76813C18.7779 5.76813 21.039 7.95025 21.039 10.6326C21.039 13.315 18.7779 15.4971 15.9985 15.4971C13.2191 15.5 10.958 13.3179 10.958 10.6355C10.958 7.95312 13.2191 5.76813 15.9985 5.76813ZM27 26.1145V27H5V26.1145C5 22.193 7.21936 18.7689 10.5082 16.9318C11.0474 17.3687 11.6432 17.7396 12.2837 18.0386C9.3434 19.3036 7.21341 22.0119 6.87976 25.229H25.1202C24.7866 22.0119 22.6566 19.3036 19.7163 18.0386C20.3568 17.7396 20.9526 17.3687 21.4918 16.9318C24.7777 18.7689 27 22.193 27 26.1145Z"
+                            fill="#1C95A2"
+                          ></path>
+                        </svg>
+                      </label>
+                      <input type="text" placeholder="Ваше имя" />
+                    </div>
+                    <div class="modal__input">
+                      <label
+                        ><svg
+                          width="32"
+                          height="32"
+                          viewBox="0 0 32 32"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.5 5C12.9477 5 12.5 5.44772 12.5 6C12.5 6.55228 12.9477 7 13.5 7H18.5C19.0523 7 19.5 6.55228 19.5 6C19.5 5.44772 19.0523 5 18.5 5H13.5Z"
+                            fill="#2770F1"
+                          ></path>
+                          <path
+                            d="M15 25C15 24.4477 15.4477 24 16 24C16.5523 24 17 24.4477 17 25C17 25.5523 16.5523 26 16 26C15.4477 26 15 25.5523 15 25Z"
+                            fill="#2770F1"
+                          ></path>
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M8 6C8 3.79086 9.79086 2 12 2H20C22.2091 2 24 3.79086 24 6V25C24 27.2091 22.2091 29 20 29H12C9.79086 29 8 27.2091 8 25V6ZM12 4C10.8954 4 10 4.89543 10 6V8H22V6C22 4.89543 21.1046 4 20 4H12ZM10 21V10H22V21H10ZM10 23V25C10 26.1046 10.8954 27 12 27H20C21.1046 27 22 26.1046 22 25V23H10Z"
+                            fill="#1C95A2"
+                          ></path>
+                        </svg>
+                      </label>
+                      <input type="text" placeholder="Ваш телефон" />
+                    </div>
+                    <button>Оставить заявку</button>
+                  </div>
+                </div>
+                <p>
+                  Нажимая кнопку “Отправить заявку”, вы даете согласие на
+                  обработку
+                  <a href="#">персональных данных</a>
+                </p>
+              </div>
+            </div>
+            <div class="footer__body-col">
+              <div class="footer__body-link">
+                <p>Полезные ссылки</p>
+                <ul>
+                  <li>
+                    <a href="#">Главная</a>
+                  </li>
+                  <li>
+                    <a href="#">Цены</a>
+                  </li>
+                  <li>
+                    <a href="#">Сотрудники</a>
+                  </li>
+                  <li>
+                    <a href="#">О центре</a>
+                  </li>
+                  <li>
+                    <a href="#">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/common.js"></script>
+  </body>
+</html>
